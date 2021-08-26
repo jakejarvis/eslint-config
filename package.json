@@ -1,0 +1,47 @@
+{
+  "name": "@jakejarvis/eslint-config",
+  "version": "0.0.1",
+  "description": "@jakejarvis's shared eslint config.",
+  "license": "MIT",
+  "author": {
+    "name": "Jake Jarvis",
+    "email": "jake@jarv.is",
+    "url": "https://jarv.is/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakejarvis/eslint-config.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-compat": "^3.13.0",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-compat": "^3.13.0",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "env": {
+      "node": true
+    }
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config"
+  ]
+}
