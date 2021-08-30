@@ -24,7 +24,7 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     "comma-spacing": "error",
     "comma-style": "error",
-    "curly": ["error", "multi-or-nest", "consistent"],
+    "curly": ["error", "all"],
     "func-call-spacing": "error",
     "max-len": ["warn", {
       "code": 120,
