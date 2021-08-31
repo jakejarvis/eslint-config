@@ -20,16 +20,18 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^7.32.0",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
     "eslint-plugin-compat": "^3.13.0",
     "eslint-plugin-import": "^2.24.2"
   },
   "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-plugin-compat": "^3.13.0",
-    "eslint-plugin-import": "^2.24.2"
+    "typescript": "^4.4.2"
   },
   "eslintConfig": {
     "extends": "./index.js",
