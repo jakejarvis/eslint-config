@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-yarn add --dev eslint @jakejarvis/eslint-config eslint-plugin-compat eslint-plugin-import
+yarn add --dev eslint "@jakejarvis/eslint-config@*"
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ yarn add --dev eslint @jakejarvis/eslint-config eslint-plugin-compat eslint-plug
 ```json5
 {
   "extends": [
-    "@jakejarvis"
+    "@jakejarvis/eslint-config"
   ],
   "rules": {
     // Project-specific overrides...
