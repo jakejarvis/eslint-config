@@ -108,26 +108,8 @@ module.exports = {
       },
     },
     {
-      // TypeScript-only config
+      // TODO: TypeScript-only config
       files: ["*.ts", "*.tsx", "*.d.ts"],
-      extends: [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "plugin:import/recommended",
-        "plugin:import/typescript",
-      ],
-      plugins: [
-        "@typescript-eslint",
-      ],
-      parser: "@typescript-eslint/parser",
-      parserOptions: {
-        project: ["./tsconfig.json"],
-      },
-      rules: {
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md
-        "@typescript-eslint/restrict-template-expressions": "off",
-      },
     },
   ],
 };
