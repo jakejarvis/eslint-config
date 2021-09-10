@@ -1,7 +1,7 @@
 {
   "name": "@jakejarvis/eslint-config",
   "version": "1.0.3",
-  "description": "@jakejarvis's shared eslint config.",
+  "description": "My ESLint config. Inspired heavily by eslint-config-google and moderately by eslint-config-airbnb.",
   "license": "MIT",
   "author": {
     "name": "Jake Jarvis",
@@ -28,8 +28,7 @@
     "eslint": ">=7"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "typescript": "^4.4.2"
+    "eslint": "^7.32.0"
   },
   "eslintConfig": {
     "extends": "./index.js",
@@ -41,6 +40,7 @@
     "javascript",
     "ecmascript",
     "eslint",
+    "eslint-config",
     "lint",
     "config"
   ]

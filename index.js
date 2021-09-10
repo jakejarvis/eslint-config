@@ -7,10 +7,7 @@ module.exports = {
   ],
   parserOptions: {
     sourceType: "module",
-    ecmaVersion: 2018,
-    ecmaFeatures: {
-      jsx: true,
-    },
+    ecmaVersion: 2018, // recommended minimum target, probably overridden by project
   },
   rules: {
     // Stylistic:
@@ -95,17 +92,14 @@ module.exports = {
     "prefer-rest-params": "error",
     "prefer-spread": "error",
     "template-curly-spacing": "error",
+
+    // Plugins
+    "compat/compat": "off", // override locally for browser-targeted projects
   },
   overrides: [
     {
-      // JS-only config
+      // TODO: JS-only config
       files: ["*.js"],
-      env: {
-        es6: true,
-      },
-      rules: {
-        "compat/compat": "error",
-      },
     },
     {
       // TODO: TypeScript-only config

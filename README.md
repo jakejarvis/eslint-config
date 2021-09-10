@@ -17,6 +17,10 @@ yarn add --dev eslint "@jakejarvis/eslint-config@*"
   "extends": [
     "@jakejarvis/eslint-config"
   ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "rules": {
     // Project-specific overrides...
   }
