@@ -20,12 +20,19 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
+    "eslint": "^7 || >=8",
     "eslint-plugin-compat": "~3.13.0",
     "eslint-plugin-import": "~2.25.2"
   },
-  "peerDependencies": {
-    "eslint": "^7 || >=8"
+  "peerDependenciesMeta": {
+    "eslint-plugin-compat": {
+      "optional": true
+    },
+    "eslint-plugin-import": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "eslint": "^8.0.0"

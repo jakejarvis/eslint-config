@@ -2,8 +2,6 @@ module.exports = {
   root: true,
   extends: [
     "eslint:recommended",
-    "plugin:compat/recommended",
-    "plugin:import/recommended",
   ],
   parserOptions: {
     sourceType: "module",
