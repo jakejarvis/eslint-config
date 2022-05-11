@@ -1,5 +1,7 @@
+/**
+ * @type {import("eslint").Linter.Config}
+ */
 module.exports = {
-  root: true,
   extends: [
     "eslint:recommended",
   ],
@@ -90,9 +92,6 @@ module.exports = {
     "prefer-rest-params": "error",
     "prefer-spread": "error",
     "template-curly-spacing": "error",
-
-    // Plugins
-    "compat/compat": "off", // override locally for browser-targeted projects
   },
   overrides: [
     {
@@ -101,7 +100,7 @@ module.exports = {
     },
     {
       // TODO: TypeScript-only config
-      files: ["*.ts", "*.tsx", "*.d.ts"],
+      files: ["*.ts"],
     },
   ],
 };

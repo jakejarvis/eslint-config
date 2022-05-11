@@ -3,39 +3,26 @@
   "version": "3.0.0",
   "description": "My ESLint config. Inspired heavily by eslint-config-google and moderately by eslint-config-airbnb.",
   "license": "MIT",
+  "repository": "jakejarvis/eslint-config",
   "author": {
     "name": "Jake Jarvis",
     "email": "jake@jarv.is",
     "url": "https://jarv.is/"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jakejarvis/eslint-config.git"
-  },
-  "main": "index.js",
   "files": [
     "index.js"
   ],
+  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {},
-  "peerDependencies": {
-    "eslint": "^7 || >=8",
-    "eslint-plugin-compat": "~4.0.0",
-    "eslint-plugin-import": "~2.25.3"
-  },
-  "peerDependenciesMeta": {
-    "eslint-plugin-compat": {
-      "optional": true
-    },
-    "eslint-plugin-import": {
-      "optional": true
-    }
-  },
   "devDependencies": {
-    "eslint": "^8.2.0"
+    "eslint": "^8.15.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7 || >=8"
   },
   "eslintConfig": {
     "extends": "./index.js",
