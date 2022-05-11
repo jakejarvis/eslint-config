@@ -1,6 +1,6 @@
 {
   "name": "@jakejarvis/eslint-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "My ESLint config. Inspired heavily by eslint-config-google and moderately by eslint-config-airbnb.",
   "license": "MIT",
   "repository": "jakejarvis/eslint-config",
