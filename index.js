@@ -33,7 +33,7 @@ export default [{
           const: "never",
       }],
 
-      "operator-linebreak": ["error", "before"],
+      "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
       "padded-blocks": ["error", "never"],
       "quote-props": ["error", "as-needed"],
 
