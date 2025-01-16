@@ -12,7 +12,7 @@ export default [{
           objects: "always-multiline",
           imports: "always-multiline",
           exports: "always-multiline",
-          functions: "never"
+          functions: "never",
       }],
       "comma-spacing": "error",
       "comma-style": "error",
