@@ -7,21 +7,17 @@ export default [{
           ignoreDestructuring: true,
       }],
 
-      "comma-dangle": ["error", "always-multiline"],
+      "comma-dangle": ["error", {
+          arrays: "always-multiline",
+          objects: "always-multiline",
+          imports: "always-multiline",
+          exports: "always-multiline",
+          functions: "never"
+      }],
       "comma-spacing": "error",
       "comma-style": "error",
-      curly: ["error", "all"],
+      curly: ["error", "multi-line"],
       "func-call-spacing": "error",
-
-      "max-len": ["warn", {
-          code: 120,
-          tabWidth: 2,
-          ignoreComments: false,
-          ignoreUrls: true,
-          ignoreStrings: true,
-          ignoreTemplateLiterals: true,
-          ignoreRegExpLiterals: true,
-      }],
 
       "no-multiple-empty-lines": ["error", {
           max: 1,
@@ -39,7 +35,7 @@ export default [{
 
       "operator-linebreak": ["error", "after"],
       "padded-blocks": ["error", "never"],
-      "quote-props": ["error", "consistent-as-needed"],
+      "quote-props": ["error", "as-needed"],
 
       quotes: ["error", "double", {
           avoidEscape: true,
@@ -70,10 +66,6 @@ export default [{
       }],
 
       "template-tag-spacing": ["error", "never"],
-
-      "arrow-body-style": ["error", "as-needed", {
-          requireReturnForObjectLiteral: false,
-      }],
 
       "arrow-parens": ["error", "always"],
 
