@@ -1,6 +1,6 @@
 {
   "name": "@jakejarvis/eslint-config",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "My ESLint config. Inspired heavily by eslint-config-google and moderately by eslint-config-airbnb.",
   "license": "MIT",
   "repository": "jakejarvis/eslint-config",
@@ -13,6 +13,7 @@
     "index.js"
   ],
   "main": "index.js",
+  "type": "module",
   "devDependencies": {
     "eslint": "^9.4.0"
   },
